@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Student Achievments" max_length="40" name="x_206818_achievmnt_student_achievments_table" type="collection">
+        <element choice="1" label="Academic year" mandatory="true" max_length="40" name="academic_year" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="2018-19" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="2017-18" sequence="1" value="2017-18"/>
+            </choice>
+        </element>
+        <element choice="1" label="Achievement Type" mandatory="true" max_length="40" name="achievement_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Merit" sequence="0" value="merit"/>
+                <element inactive="true" inactive_on_update="true" label="Presentation" sequence="0" value="presentation"/>
+                <element inactive_on_update="false" label="Runner" sequence="1" value="runner"/>
+                <element inactive_on_update="false" label="Winner" sequence="2" value="winner"/>
+                <element inactive_on_update="false" label="Consolation" sequence="3" value="consolation"/>
+                <element inactive_on_update="false" label="Appreciation" sequence="4" value="appreciation"/>
+                <element inactive_on_update="false" label="I Prize" sequence="5" value="i prize"/>
+                <element inactive_on_update="false" label="II Prize" sequence="6" value="ii prize"/>
+                <element inactive_on_update="false" label="III Prize" sequence="7" value="iii prize"/>
+                <element inactive_on_update="false" label="Participation" sequence="8" value="participation"/>
+                <element inactive_on_update="false" label="Successful Completion" sequence="9" value="successful completion"/>
+                <element inactive_on_update="false" label="Intern" sequence="10" value="intern"/>
+            </choice>
+        </element>
+        <element label="Attachment (if any)" max_length="40" name="attachment_if_any" type="file_attachment"/>
+        <element label="Event End Date" max_length="40" name="event_end_date" type="glide_date"/>
+        <element label="Event Name" mandatory="true" max_length="40" name="event_name" type="string"/>
+        <element label="Event Start Date" mandatory="true" max_length="40" name="event_start_date" type="glide_date"/>
+        <element choice="1" label="Event Type" mandatory="true" max_length="40" name="event_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Online Course" sequence="0" value="online course"/>
+                <element inactive_on_update="false" label="Workshop" sequence="1" value="workshop"/>
+                <element inactive_on_update="false" label="Presentation" sequence="2" value="presentation"/>
+                <element inactive_on_update="false" label="Conference" sequence="3" value="conference"/>
+                <element inactive_on_update="false" label="Hackathon" sequence="4" value="hackathon"/>
+                <element inactive_on_update="false" label="Non-Technical" sequence="5" value="non-technical"/>
+                <element inactive_on_update="false" label="Sports" sequence="6" value="sports"/>
+                <element inactive_on_update="false" label="Internship" sequence="7" value="internship"/>
+                <element inactive_on_update="false" label="Code Challenge" sequence="8" value="code challenge"/>
+                <element inactive_on_update="false" label="Project Expo" sequence="9" value="project"/>
+            </choice>
+        </element>
+        <element choice="1" label="Inter/Intra College?" max_length="40" name="inter_intra_college" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Inter College" sequence="0" value="inter college"/>
+                <element inactive_on_update="false" label="Intra College" sequence="1" value="intra college"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="No Of Days" max_length="40" name="no_of_days" type="string"/>
+        <element display="true" label="Roll No" mandatory="true" max_length="40" name="roll_no" type="string"/>
+        <element label="Venue/Organized By" max_length="40" name="venue_organized_by" type="string"/>
+        <element choice="1" label="Year/Semester" mandatory="true" max_length="40" name="year_sem_section" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="II Year I Sem" sequence="0" value="21"/>
+                <element inactive_on_update="false" label="II Year II Sem" sequence="1" value="22"/>
+                <element inactive_on_update="false" label="III Year I Sem" sequence="2" value="31"/>
+                <element inactive_on_update="false" label="III Year II Sem" sequence="3" value="32"/>
+                <element inactive_on_update="false" label="IV Year I Sem" sequence="4" value="41"/>
+                <element inactive_on_update="false" label="IV Year II Sem" sequence="5" value="42"/>
+                <element inactive_on_update="false" label="I Year I Sem" sequence="6" value="11"/>
+                <element inactive_on_update="false" label="I Year II Sem" sequence="7" value="12"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="academic_year"/>
+            <element name="achievement_type"/>
+            <element name="event_end_date"/>
+            <element name="event_name"/>
+            <element name="event_start_date"/>
+            <element name="event_type"/>
+            <element name="name"/>
+            <element name="roll_no"/>
+            <element name="venue_organized_by"/>
+            <element name="year_sem_section"/>
+        </index>
+    </element>
+</database>

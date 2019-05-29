@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl X 206818 Achievmnt Student Achievments Table" max_length="40" name="u_imp_tmpl_x_206818_achievmnt_student_achievments_table" type="collection">
+        <element attributes="import_attribute_name=Academic year,edge_encryption_enabled=true" label="Academic year" max_length="40" name="u_academic_year" type="string"/>
+        <element attributes="import_attribute_name=Achievement Type,edge_encryption_enabled=true" label="Achievement Type" max_length="40" name="u_achievement_type" type="string"/>
+        <element attributes="import_attribute_name=Event End Date" label="Event End Date" max_length="40" name="u_event_end_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Event Name,edge_encryption_enabled=true" label="Event Name" max_length="40" name="u_event_name" type="string"/>
+        <element attributes="import_attribute_name=Event Start Date" label="Event Start Date" max_length="40" name="u_event_start_date" type="glide_date"/>
+        <element attributes="import_attribute_name=Event Type,edge_encryption_enabled=true" label="Event Type" max_length="40" name="u_event_type" type="string"/>
+        <element attributes="import_attribute_name=Inter/Intra College?,edge_encryption_enabled=true" label="Inter/Intra College?" max_length="40" name="u_inter_intra_college_" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=No Of Days,edge_encryption_enabled=true" label="No Of Days" max_length="40" name="u_no_of_days" type="string"/>
+        <element attributes="import_attribute_name=Roll No,edge_encryption_enabled=true" label="Roll No" max_length="40" name="u_roll_no" type="string"/>
+        <element attributes="import_attribute_name=Venue/Organized By,edge_encryption_enabled=true" label="Venue/Organized By" max_length="40" name="u_venue_organized_by" type="string"/>
+        <element attributes="import_attribute_name=Year/Semester,edge_encryption_enabled=true" label="Year/Semester" max_length="40" name="u_year_semester" type="string"/>
+    </element>
+</database>

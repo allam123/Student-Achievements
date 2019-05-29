@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>event_start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>start_date_verify</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   var currentDateObj = new Date();   
+	var currentDateStr = formatDate(currentDateObj, g_user_date_format);   
+    var today = getDateFromFormat(currentDateStr, g_user_date_format);   
+    var start_date = getDateFromFormat(newValue, g_user_date_format); 
+	if(start_date>today){
+		g_form.showFieldMsg('event_start_date','Start Date shoulld not be in the future','error');
+		return;
+	}
+	var end_date = getDateFromFormat(g_form.getValue('event_end_date'), g_user_date_format); 
+	if(start_date>end_date&&g_form.getValue('event_end_date')!=''){
+		g_form.showFieldMsg('event_end_date','Start Date should not be after end date','error');
+		return;
+	}
+	else
+		g_form.hideFieldMsg('event_start_date');
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-10 08:11:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>526a7d021b5133009067fc88cc4bcb92</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>start_date_verify</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Student Achievments" source="x_206818_achievmnt">9fbf9850db132300e2d17b1ebf96191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Achievments">9fbf9850db132300e2d17b1ebf96191e</sys_scope>
+        <sys_update_name>sys_script_client_526a7d021b5133009067fc88cc4bcb92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-22 08:19:47</sys_updated_on>
+        <table>x_206818_achievmnt_student_achievments_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

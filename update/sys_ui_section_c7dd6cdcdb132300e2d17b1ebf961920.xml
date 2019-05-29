@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Other Details" section_id="c7dd6cdcdb132300e2d17b1ebf961920" sys_domain="global" table="x_206818_achievmnt_student_achievments_table" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>achievement_type</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 12:07:07</sys_created_on>
+            <sys_id>ea124a90db172300e2d17b1ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">c7dd6cdcdb132300e2d17b1ebf961920</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 12:07:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inter_intra_college</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 12:07:07</sys_created_on>
+            <sys_id>6e124a90db172300e2d17b1ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">c7dd6cdcdb132300e2d17b1ebf961920</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 12:07:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>venue_organized_by</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 12:07:07</sys_created_on>
+            <sys_id>ee124a90db172300e2d17b1ebf9619a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">c7dd6cdcdb132300e2d17b1ebf961920</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 12:07:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Other Details</caption>
+            <header>false</header>
+            <name>x_206818_achievmnt_student_achievments_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 05:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c7dd6cdcdb132300e2d17b1ebf961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Other Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Student Achievments" source="x_206818_achievmnt">9fbf9850db132300e2d17b1ebf96191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Achievments">9fbf9850db132300e2d17b1ebf96191e</sys_scope>
+            <sys_update_name>sys_ui_section_c7dd6cdcdb132300e2d17b1ebf961920</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 05:59:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

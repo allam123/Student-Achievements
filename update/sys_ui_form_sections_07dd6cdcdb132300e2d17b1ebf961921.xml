@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="07dd6cdcdb132300e2d17b1ebf961921" sys_domain="global" table="x_206818_achievmnt_student_achievments_table" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 05:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>87dd6cdcdb132300e2d17b1ebf961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_206818_achievmnt_student_achievments_table" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">07dd6cdcdb132300e2d17b1ebf961921</sys_ui_form>
+            <sys_ui_section caption="Student Details" display_value="Student Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">b1caa85cdb132300e2d17b1ebf96192d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 05:59:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 05:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>83dd6cdcdb132300e2d17b1ebf961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_206818_achievmnt_student_achievments_table" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">07dd6cdcdb132300e2d17b1ebf961921</sys_ui_form>
+            <sys_ui_section caption="Event Details" display_value="Event Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">cfdd6cdcdb132300e2d17b1ebf96191f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 05:59:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 05:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0fdd6cdcdb132300e2d17b1ebf961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_206818_achievmnt_student_achievments_table" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">07dd6cdcdb132300e2d17b1ebf961921</sys_ui_form>
+            <sys_ui_section caption="Other Details" display_value="Other Details" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">c7dd6cdcdb132300e2d17b1ebf961920</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 05:59:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 06:09:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a407450db532300e2d17b1ebf9619d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_206818_achievmnt_student_achievments_table" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">07dd6cdcdb132300e2d17b1ebf961921</sys_ui_form>
+            <sys_ui_section caption="Attach Copy of Proof" display_value="Attach Copy of Proof" name="x_206818_achievmnt_student_achievments_table" sys_domain="global" view="Default view">7a407450db532300e2d17b1ebf9619d0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 06:09:41</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_206818_achievmnt_student_achievments_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-25 05:59:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07dd6cdcdb132300e2d17b1ebf961921</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_206818_achievmnt_student_achievments_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Student Achievments" source="x_206818_achievmnt">9fbf9850db132300e2d17b1ebf96191e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Student Achievments">9fbf9850db132300e2d17b1ebf96191e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_07dd6cdcdb132300e2d17b1ebf961921</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-25 05:59:03</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

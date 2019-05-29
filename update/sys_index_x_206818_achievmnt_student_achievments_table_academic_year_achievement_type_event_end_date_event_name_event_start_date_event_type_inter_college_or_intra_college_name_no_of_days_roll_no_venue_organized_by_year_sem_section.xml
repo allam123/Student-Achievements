@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>academic_year,achievement_type,event_end_date,event_name,event_start_date,event_type,inter_college_or_intra_college,name,no_of_days,roll_no,venue_organized_by,year_sem_section</col_name_string>
+        <index_col_name>4532a494db132300e2d17b1ebf961981,c44164d4db132300e2d17b1ebf96193d,50d3acd4db132300e2d17b1ebf9619ac,84a0e890db132300e2d17b1ebf961913,8462a0d4db132300e2d17b1ebf96196f,f5c164d4db132300e2d17b1ebf961940,2a81ec94db132300e2d17b1ebf961978,00302894db132300e2d17b1ebf96198d,f0042cd4db132300e2d17b1ebf96194a,66dfd890db132300e2d17b1ebf961911,c6e364d4db132300e2d17b1ebf9619a1,2401e890db132300e2d17b1ebf961914</index_col_name>
+        <logical_table_name>x_206818_achievmnt_student_achievments_table</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2019-01-25 05:39:17</sys_created_on>
+        <sys_id>6159641cdb132300e2d17b1ebf9619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_206818_achievmnt_student_achievments_table</sys_name>
+        <sys_package display_value="Student Achievments" source="x_206818_achievmnt">9fbf9850db132300e2d17b1ebf96191e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Student Achievments">9fbf9850db132300e2d17b1ebf96191e</sys_scope>
+        <sys_update_name>sys_index_x_206818_achievmnt_student_achievments_table_academic_year_achievement_type_event_end_date_event_name_event_start_date_event_type_inter_college_or_intra_college_name_no_of_days_roll_no_venue_organized_by_year_sem_section</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-01-25 05:39:17</sys_updated_on>
+        <table/>
+        <unique_index>true</unique_index>
+    </sys_index>
+</record_update>

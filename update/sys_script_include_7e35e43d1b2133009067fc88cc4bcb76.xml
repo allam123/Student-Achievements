@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_206818_achievmnt.NofDays</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>NofDays</name>
+        <script><![CDATA[var NofDays = Class.create();
+NofDays.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+
+   dueDateCalculation: function() {
+
+
+   var dueDate;
+
+
+   //gs.addInfoMessage("in script include");
+
+
+   var date1 = new GlideDate();
+
+
+   var date2 = new GlideDate();
+
+
+   var fromDate = this.getParameter('sysparm_from_date');
+
+
+   var toDate = this.getParameter('sysparm_to_date');
+
+
+   date1.setValue(fromDate);
+
+
+   date2.setValue(toDate);
+
+
+   dueDate = GlideDate.subtract(date1, date2);
+
+   dueDate=dueDate.add(new GlideDuration('1 00:00:00'));
+   //gs.addInfoMessage("in script include" + dueDate.getDisplayValue());
+
+   
+   return dueDate.getDisplayValue();
+
+
+   },
+
+
+
+    type: 'NofDays'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-21 17:38:45</sys_created_on>
+        <sys_id>7e35e43d1b2133009067fc88cc4bcb76</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>NofDays</sys_name>
+        <sys_package display_value="Student Achievments" source="x_206818_achievmnt">9fbf9850db132300e2d17b1ebf96191e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Student Achievments">9fbf9850db132300e2d17b1ebf96191e</sys_scope>
+        <sys_update_name>sys_script_include_7e35e43d1b2133009067fc88cc4bcb76</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-21 20:00:35</sys_updated_on>
+    </sys_script_include>
+</record_update>
